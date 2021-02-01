@@ -1,0 +1,773 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/***********
+*Global Css*
+***********/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+input:focus, button:focus{
+	outline: none;
+}
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+      }
+ h1, h2, h3, h4{
+ 	color: #242f51;
+ }
+ p{
+ 	color: #616368;
+ }
+
+/*******************
+*Header section css*
+*******************/
+.header-section{
+	width: 100%;
+	padding: 30px 0 0;
+}
+.navbar-nav{
+	margin-right: 30px;
+}
+.nav-link{
+	color: #242f51 !important;
+	font-size: 16px;
+	font-weight: 400;
+	margin-right: 30px;
+	padding: 0 !important;
+}
+.btn-outline-success{
+	background: #2500f9 !important;
+    border-radius: 35px;
+    color: #fff !important;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+.banner-section{
+	width: 100%;
+	background-image: url(../img/banner.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+}
+.banner-section .col-md-8{
+	display: flex;
+	align-items: center;
+}
+.banner-text{
+	
+	width: 62%;
+	margin: 0 auto;
+}
+.hint{
+	padding-right: 10px;
+    background: #e2eaed;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.hint i{
+	height: 30px;
+	width: 30px;
+	background-color: #feaa25;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #fff;
+}
+.banner-text h1{
+	font-size: 60px;
+	font-weight: 600;
+	color: #242f51;
+}
+.banner-text p{
+	margin: 30px 0;
+	font-size: 18px;
+	font-weight: 400;
+	color: #616368;
+}
+.banner-text a{
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 35px;
+}
+
+/*******************
+*Partner section css*
+*******************/
+.partner-section{
+	width: 100&;
+	padding: 60px 0;
+}
+.partner-section h2{
+	margin-bottom: 36px;
+	font-size: 16px;
+	font-weight: 400;
+}
+#owl-carousel1 .owl-item img {
+    width: auto !important;
+  }
+#owl-carousel1 .owl-theme .owl-nav {
+    display: none !important;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+	display: none !important;
+}
+/*******************
+*Feature section css*
+*******************/
+.feature-section{
+	width: 100%;
+	padding:60px 0;
+}
+.feature-section h1{
+	font-size: 36px;
+	font-weight: 600;
+	color: #242f51;
+	margin-bottom: 20px;
+}
+.feature-section p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #616368;
+		margin-bottom: 60px;
+}
+
+.item-1 i{
+	height: 80px;
+    width: 80px;
+    background: #ffecef;
+    color: #f55767;
+    line-height: 75px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50%;
+}
+.item-1 h4{
+	color: #f55767;
+	font-weight: 600;
+	font-size: 20px;
+}
+.item-1 p{
+	font-weight: 400;
+	font-size: 16px;
+	width: 75%;
+}
+.item-2 i{
+	display: inline-block;
+	height: 80px;
+    width: 80px;
+    background: #f4f4ff;
+    color: #2563ff;
+    line-height: 75px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+}
+.item-2 h4{
+	color: #2563ff;
+	font-weight: 600;
+	font-size: 20px;
+}
+.item-2 p{
+	font-weight: 400;
+	font-size: 16px;
+	width: 75%;
+}
+.item-3 i{
+	display: inline-block;
+	height: 80px;
+    width: 80px;
+    background: #e4ffee;
+    color: #40975f;
+    line-height: 75px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 50%;
+}
+}
+.item-3 h4{
+	color: #40975f;
+	font-weight: 600;
+	font-size: 20px;
+}
+.item-3 p{
+	font-weight: 400;
+	font-size: 16px;
+	width: 75%;
+}
+.smart{
+	padding: 30px 0;
+}
+.smart h1{
+	color: #242f51;
+	font-weight: 600;
+	font-size: 40px;
+	border-right: 1px solid #000;
+}
+.smart p{
+	width: 65%;
+	margin-top: 30px;
+	color: #616368;
+	font-weight: 400;
+	font-size: 16px;
+}
+/*******************
+*Design section css*
+********************/
+
+.icon-1{
+	display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: #ffecef;
+    border-radius: 50%;
+    text-align: center;
+    color: #f55767;
+    line-height: 60px;
+    font-size: 35px;
+}
+.design-text-1 h4{
+	color: #f55767;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 30px 0 10px;
+}
+.design-text-2 h4{
+	color: #2563ff;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 30px 0 10px;
+}
+.design-text-3 h4{
+	color: #40975f;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 30px 0 10px;
+}
+.design-section p{
+	font-size: 16px;
+	font-weight: 400;
+	width: 86%;
+}
+.icon-2{
+	display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: #f4f4ff;
+    color: #2563ff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+}
+.icon-3{
+	display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: #e4ffee;
+    color: #40975f;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+}
+.design{
+	padding: 45px 0;
+}
+.design-code{
+	margin-top: 120px;
+}
+.design-code h1{
+	width: 60%;
+	margin: 30px 0;
+	font-size: 36px;
+	font-weight: 600;
+}
+.design-code p{
+	width: 65%;
+	margin: 30px 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*******************
+*Facilitysection css*
+********************/
+.facility-section{
+	width: 100%;
+	padding: 45px 0;
+}
+.facility-section h1{
+	width: 40%;
+	font-size: 36px;
+    font-weight: 600;
+    margin: 30px auto;
+}
+.facility-section p{
+	font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto 45px;
+    width: 52%;
+}
+.facility{
+	padding: 30px 0;
+}
+.facility i{}
+.facility h4{
+	font-size: 20px;
+	font-weight: 600;
+	margin: 20px 0 10px;
+}
+.facility p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #616368;
+	width: 75%;
+}
+.facility .app-icon{
+	display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: #ffecef;
+    border-radius: 50%;
+    text-align: center;
+    color: #333;
+    line-height: 60px;
+    font-size: 35px;
+}
+.facility .trophy-icon{
+	display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: #eaf9ff;
+    border-radius: 50%;
+    text-align: center;
+    color: #333;
+    line-height: 60px;
+    font-size: 35px;
+}
+.facility .cloud-icon{
+	display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: #fff6d3;
+    border-radius: 50%;
+    text-align: center;
+    color: #333;
+    line-height: 60px;
+    font-size: 35px;
+}
+.facility .support{
+	display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: #e4ffee;
+    border-radius: 50%;
+    text-align: center;
+    color: #333;
+    line-height: 60px;
+    font-size: 35px;
+}
+.facility .ui-icon{
+	display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: #f4f4ff;
+    border-radius: 50%;
+    text-align: center;
+    color: #333;
+    line-height: 60px;
+    font-size: 35px;
+}
+.facility .service{
+	display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: #fdeee4;
+    border-radius: 50%;
+    text-align: center;
+    color: #333;
+    line-height: 60px;
+    font-size: 35px;
+}
+/*****************
+*Work section css*
+******************/
+.work-section{
+	width: 100%;
+	padding: 30px 0 60px;
+}
+.work-section h1{
+	font-size: 36px;
+	font-weight: 600;
+	width: 55%;
+}
+.work-section p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #616368;
+	width: 70%;
+	margin: 10px 0 35px;
+}
+.work{}
+.work i{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	line-height: 80px;
+	border-radius:50%;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.work .app{
+	background: #ffecef;
+}
+.work .ui{
+	background: #e4ffee;
+}
+.work .cloud{
+	background: #fff6d3;
+}
+.work .support{
+	background: #f4f4ff;
+}
+.work h4{
+	font-size: 20px;
+	font-weight: 600;
+}
+.work p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #616368;
+	width: 90%;
+}
+.work-section button{
+	width:155px;
+}
+.img-right{
+	position: relative;
+}
+.img-right img{
+	position: absolute;	
+	right: -110px;
+}
+/*******************
+*Pricing section css*
+*******************/
+.pricing-section{
+	width: 100%;
+	padding: 30px 0;
+}
+.pricing-section h1{
+	font-size: 36px;
+	font-weight: 600;
+	width: 50%;
+	margin: 0 auto 20px;
+}
+.pricing-section p{
+	font-size: 16px;
+	font-weight: 400;
+	width: 51%;
+	color: #616368;
+	margin: 0 auto 45px;
+}
+.btn-trigger{
+	display: inline-block;
+	border: 3px solid black;
+	border-radius: 51px;
+	padding: 2px;
+}
+.btn-trigger .active{
+	border:none;
+	border-radius: 35px;
+	background: #2500f9;
+	color: #fff;
+	padding: 15px 45px;
+}
+.btn-trigger .in-active{
+	border:none;
+	background-color: transparent;
+	padding: 15px 45px;
+}
+.card{	
+	margin: 35px;
+}
+.card-header{
+	padding: 20px;
+	background: #fcfdfe !important;
+}
+.card-header h1{
+	width: 100%;
+	font-size: 60px;
+	font-weight: 600;
+}
+.card-header span{
+	font-size: 16px;
+	font-size: 600;
+}
+.card-header h4{
+	width: 100%;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 15px 0;
+}
+.card-header p{
+	border:none;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 20px !important;
+}
+
+.card-body ul{
+	padding: 0;
+}
+.card-body ul li{
+	margin: 12px 0;
+	font-size: 16px;
+	font-weight: 400;
+	color: #616368;
+}
+.card-body button{
+	margin: 20px 0;
+}
+.card-body a{
+	display: inline-block;
+	margin-bottom: : 20px;
+}
+.table-active{
+	border:none;
+	box-shadow: 0px 2px 4px 1px rgb(0 0 0 / 25%)
+	}
+/************************
+*Testimonial section css*
+************************/
+.testimonial-section{
+	width: 100%;
+	padding:60px 0;
+}
+.img-left{
+	position: relative;
+}
+.img-left img{
+	position: absolute;
+    left: -120px;
+    top: 75px;
+}
+.testimonial-section h1{
+	color: #242f51;
+	font-size: 40px;
+	font-weight: 600;
+}
+.testimonial-section p{
+	font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    margin: 30px 0;
+    color: #616368;
+}
+.testimonial-section ul{
+	padding: 0;
+}
+.testimonial-section li{
+	display: inline-block;
+	color: #ffcc00;
+	margin-right: 10px;
+}
+.client-img {
+	display: flex;
+}
+.client-img img{
+	width: 100px;
+}
+.img-title{
+	margin-left: 30px;
+	width: 30%;
+	margin-top: 30px;
+}
+.img-title p{
+	margin: 0;
+}
+#owl-carousel2 .owl-item img {
+    width: auto !important;
+  }
+  #owl-carousel2 .owl-theme .owl-dots, .owl-theme .owl-nav{
+	display: none !important;
+}
+/*******************
+*FAQ section css*
+*******************/
+.faq-section{
+	width: 100%;
+	padding: 45px 0;
+}
+.faq-section h1{
+	font-size: 40px;
+	font-weight: 600;
+	color: #242f51;
+}
+.faq-section p{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	width: 52%;
+    margin: 30px auto;
+}
+.accordion-item{
+	margin-bottom: 10px !important;
+	background-color: #f5f7fa !important;
+}
+.accordion-button{
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+	border: none;
+}
+.accordion-button:not(.collapsed) {
+     color: #333 !important; 
+     background-color: #f5f7fa !important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border:none;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 #f5f7fa ;
+ }
+ .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+ .accordion-body {
+ 	font-size: 16px;
+ 	font-weight: 400;
+ 	color: #616368 !important;
+    text-align: left;
+    padding: 1rem 1.25rem;
+}
+.accordion-collapse {
+    border: none;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../img/plus.png); 
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/remove.png);
+    transform: rotate(180deg);
+}
+
+
+/*************************
+*Download App section css*
+**************************/
+.download-app-section{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.download-app-section h1{
+	font-size: 48px;
+	font-weight: 600;
+	margin-top: 60px;
+}
+.download-app-section p{
+	font-size: 16px;
+	font-weight: 400;
+	margin:30px 0;
+	color: #616368;
+}
+.playstore{
+	margin-right: 30px;
+    width: 150px;
+    height: auto;
+}
+.appstore{
+	width: 150px;
+    height: auto;
+}
+.download-img{
+	position: relative;
+}
+.download-img img{
+	position: absolute;
+	right: -100px;
+}
+/*******************
+*Footer section css*
+*******************/
+.footer-section{
+	width: 100%;
+	padding:60px 0;
+	background-color: #09142e;
+}
+.footer-section h1{
+	margin-top: 60px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fcb36a;
+}
+.footer-section span{
+	color: #fff;
+}
+.footer-section ul{}
+.footer-section ul li{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	margin:30px 20px 0;
+}
+.footer-section ul li a{
+	color: #fff;
+}
+.footer-section ul li a:hover{}
+.footer-section .social-icon{}
+.footer-section .social-icon ul{}
+.footer-section .social-icon ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer-section .social-icon ul li a{
+	color: #273043;
+	font-size: 30px;
+
+}
+.footer-section .social-icon ul li a :hover{
+	color: #fff;
+}
+.copyright{
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 60px;
+	color: #273043;
+}
+/*******************
+*Header section css*
+*******************/
+
+/*******************
+*Header section css*
+*******************/
+
