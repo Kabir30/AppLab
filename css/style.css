@@ -675,7 +675,7 @@ input::-webkit-outer-spin-button,
     transition: transform .2s ease-in-out;
 }
 .accordion-button:not(.collapsed)::after {
-    background-image: url(../img/plus.png);
+    background-image: url(../img/remove.png);
     transform: rotate(180deg);
 }
 
