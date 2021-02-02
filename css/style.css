@@ -118,13 +118,13 @@ input::-webkit-outer-spin-button,
 	font-size: 16px;
 	font-weight: 400;
 }
-#owl-carousel1 .owl-item img {
+.partner-section .owl-item img {
     width: auto !important;
   }
-#owl-carousel1 .owl-theme .owl-nav {
+.partner-section .owl-theme .owl-nav {
     display: none !important;
 }
-.owl-theme .owl-dots, .owl-theme .owl-nav{
+ .partner-section .owl-theme .owl-dots, .owl-theme .owl-nav{
 	display: none !important;
 }
 /*******************
@@ -604,11 +604,28 @@ input::-webkit-outer-spin-button,
 .img-title p{
 	margin: 0;
 }
-#owl-carousel2 .owl-item img {
+.testimonial-section .owl-item img {
     width: auto !important;
-  }
-  #owl-carousel2 .owl-theme .owl-dots, .owl-theme .owl-nav{
+ }
+.testimonial-section .owl-theme .owl-dots, .owl-theme .owl-nav{
 	display: none !important;
+}
+ .testimonial-section .owl-theme .owl-nav {
+    display: block !important;
+    position: absolute;
+    right: 0;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    border: none;
+    padding: 0!important;
+    font-size: 35px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot span{
+  width: 40px;
+    background: grey !important;
+    height: 40px;
+    line-height: 40px;
 }
 /*******************
 *FAQ section css*
